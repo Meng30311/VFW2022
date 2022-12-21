@@ -1,0 +1,66 @@
+
+  .proHeader {
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+  }
+
+  .masthead-heading {
+    font-size: 20px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+  }
+
+  .card-img-top {
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .icon {
+    color: rgba(52, 152, 219, 0.8);
+  }
+
+  .card {
+    height: 100%;
+    position:relative;
+  }
+  .card-text{
+    height:84px;
+  }
+  .carousel{
+    width:auto
+  }
+  .carousel-control-prev{
+    left:-180px;
+  }
+  .carousel-control-next{
+    right:-180px;
+  }
+  .carousel-control-prev-icon{
+    color:black;
+    font-size:30px;
+  }
+  .carousel-control-next-icon{
+    color:black;
+    font-size:30px;
+  }
+  .heart{
+    display:block;
+    width: 25px;
+    height: 25px;
+    border-radius:2px;
+    cursor:pointer;
+    position:absolute;
+    left:0;
+    opacity:0.7;
+    text-align:center;
+    line-height:25px;
+    color:#ff3333;
+    font-size:22px;
+  }
